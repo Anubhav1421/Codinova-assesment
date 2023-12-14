@@ -18,7 +18,7 @@ export default NoEmployee = ({ navigation }) => {
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'lightgreen' }}>
                 <Button title="Add Employee"
                     onPress={() => {
-                       navigation.navigate('AddEmployee')
+                       navigation.navigate('DemoScreen')
                     }}
                     color="green"
                 />
